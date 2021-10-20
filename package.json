@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "lodash": "^4.17.21",
+    "velocity-animate": "^1.5.2",
+    "vue": "^2.6.11",
+    "vue-cli-plugin-velocity": "^1.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -32,7 +35,11 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-console": 1,
+      "no-debugger": 1,
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",
